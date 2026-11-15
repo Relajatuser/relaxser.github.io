@@ -135,7 +135,7 @@ const API='PEGUE_AQUI_LA_URL_DE_GOOGLE';
 const WA='59898643715',HORIZON=90,LEAD=72e5,$=id=>document.getElementById(id);
 const useAPI=/^https:\/\/script\.google\.com\//.test(API);
 let R=[];
-const WK=['15:00','16:30','18:00'],SA=['09:00','10:30','14:00','15:30','17:00','18:30'];
+const WK=['15:00','16:30','18:00','19:30','21:00'],SA=['09:00','10:30','14:00','15:30','17:00','18:30'];
 let SCH={0:[],1:WK,2:WK,3:WK,4:WK,5:WK,6:SA};
 const pad=n=>String(n).padStart(2,'0'),hh=t=>t.replace(/^0/,''),key=x=>x.getFullYear()+'-'+pad(x.getMonth()+1)+'-'+pad(x.getDate());
 const sl=x=>SCH[x.getDay()]||[];
